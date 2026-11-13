@@ -7,7 +7,7 @@ const supabaseKey = process.env.SUPABASE_KEY;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // ID do Grupo Permitido (fallback de segurança)
-const GRUPO_PERMITIDO_ID = "120363411305953520@g.us";
+const GRUPO_PERMITIDO_ID = "120363431552165371@g.us";
 
 const sessoesAdmin = {};
 const sessoesTb = {};
