@@ -2,7 +2,7 @@ const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = requi
 const { createClient } = require('@supabase/supabase-js');
 const pino = require('pino');
 
-const supabaseUrl = 'https://lvdhbzjksspozeionbyg.supabase.co';
+const supabaseUrl = 'https://wcypssyxwsntlscswers.supabase.co';
 const supabaseKey = process.env.SUPABASE_KEY;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
